@@ -1,0 +1,15 @@
+[package]
+name = "scan-impls"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+rustdoc-types = "0.39"
+serde = "1"
+serde_json = { version = "1", features = ["unbounded_depth"] }
+serde_stacker = "0.1"
+crates_io_api = "0.11"
+ureq = "3"
+tar = "0.4"
+flate2 = "1"
